@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0 auto;
+            padding: 0;
+            line-height: 30px;
+        }
+
+        .container {
+            width: 30%;
+            height: 100%;
+            border: 2px solid blue;
+            border-collapse: collapse;
+        }
+
+        .header {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            height: 300px;
+            border-bottom: 5px solid blue;
+        }
+
+
+        .PersonalInformation {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            height: 250px;
+            border-bottom: 5px solid blue;
+        }
+
+
+        .Education {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            height: 100px;
+            border-bottom: 5px solid blue;
+        }
+
+
+        .License {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            height: 100px;
+            border-bottom: 5px solid blue;
+        }
+
+
+        .Experience {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            height: 150px;
+            border-bottom: 5px solid blue;
+        }
+
+
+        .Skils {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            height: 100px;
+        }
+
+
+        h1 {
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="header1" style="flex:4; background-color: blue; display: flex; align-items: center;"><img
+                    src="./image/shinji.jpeg" style="height: 100%; width: 100%;" alt="shinji"></div>
+            <div class="header1" style="flex:6; text-align: center; display: flex; align-items: center;">
+                <h2>최고의 조종사 신지입니다!</h2>
+            </div>
+        </div>
+        <div class="PersonalInformation">
+            <div class="PersonalInformation1"
+                style="flex:4; background-color: blue; display: flex; align-items: center;">
+                <h1>기본사항</h1>
+            </div>
+            <div class="PersonalInformation1" style="flex:6; display: flex; flex-direction: column;">
+                <ul>
+                    <li>
+                        <h3 style="flex:1; margin-top: 50px;">만14세</h3>
+                    </li>
+                    <li>
+                        <h3 style="flex:1; margin-top: 30px;">010-7777-7777</h3>
+                    </li>
+                    <li>
+                        <h3 style="flex:1; margin-top: 30px;">광주광역시 자미로 23번길</h3>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+        <div class="Education">
+            <div class="Education1" style="flex:4; background-color: blue; display: flex; align-items: center;">
+                <h1>학력사항</h1>
+            </div>
+            <div class="Education1" style="flex:6; display: flex; align-items: center; flex-direction: column;">
+                <ul>
+                    <li>
+                        <p style="margin-top:20px;">제일중학교 2014~2016</p>
+                    </li>
+                    <li>
+                        <p>용봉초등학교 2008~2014</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="License">
+            <div class="License1" style="flex:4; background-color: blue; display: flex; align-items: center;">
+                <h1>보유자격증</h1>
+            </div>
+            <div class="License1" style="flex:6; display: flex; align-items: center;">
+                <h3>정보처리기사 2014</h3>
+            </div>
+        </div>
+        <div class="Experience">
+            <div class="Experience1" style="flex:4; background-color: blue; display: flex; align-items: center;">
+                <h1>사회경험</h1>
+            </div>
+            <div class="Experience1" style="flex:6; display: flex; align-items: center;">
+                <h3>초호기운전경험 2014</h3>
+            </div>
+        </div>
+        <div class="Skils">
+            <div class="Skils1" style="flex:4; background-color: blue; display: flex; align-items: center;">
+                <h1>기술사항</h1>
+            </div>
+            <div class="Skils1" style="flex:6; display: flex; align-items: center;">
+                <h3>화려한 운전가능!</h3>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
